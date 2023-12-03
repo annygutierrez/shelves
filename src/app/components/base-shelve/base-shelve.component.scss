@@ -1,0 +1,33 @@
+.base-shelve {
+    background-image: url('../../../assets/images/small-shelves.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+}
+
+.shelf-top {
+    height: 5em;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.levels {
+    // display: block;
+    width: 95%;
+}
+
+.shelf-title {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.shelf-tag {
+    background-image: url('../../../assets/images/shelf-tag.png');
+    background-repeat: no-repeat;
+    background-size:cover;  
+    padding: 0 1em;
+}

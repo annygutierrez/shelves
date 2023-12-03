@@ -1,0 +1,19 @@
+<div class="shelf-levels">
+    <div *ngFor="let level of parsedList; let i = index" class="shelf-level">
+        <shelf-item
+          *ngFor="let item of level.items; let i = index"
+          (click)="changeSelectedIndex(i)"
+          [item]="item"
+        ></shelf-item>
+    </div>
+    <audio-artifacts [selectedItem]="itemList[selectedIndex]" *ngIf="shelvesType === 'music'" />
+</div>
+<div class="snap-container">
+    <iframe
+      style="border-radius:12px"
+      width="100%" height="500" frameBorder="0" allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      [src]='getUrl(itemList[selectedIndex].snap)'
+      
+      loading="lazy"></iframe>
+</div>

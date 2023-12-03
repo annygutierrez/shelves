@@ -1,0 +1,46 @@
+.shelf-level {
+    background-image: url('../../../assets/images/shelf-level.png'); 
+    background-repeat: no-repeat;
+  background-size:cover;
+    padding-top: 1em;
+    margin-bottom: 1.8em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.radio-01 {
+    display: flex;
+    width: 8em;
+    margin-bottom: -1em;
+    // margin-right: 1em;
+}
+
+.radio-02 {
+    display: flex;
+    width: 12em;
+    margin-bottom: -1em;
+}
+
+.lp-reproducer {
+    display: flex;
+    width: 12em;
+    // margin-bottom: -1em;
+}
+
+.lp {
+    display: flex;
+    width: 13em;
+    height: 8em;
+    background-image: url('../../../assets/images/audio-artifacts/lp.png'); 
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    // margin-bottom: -1em;
+}
+
+.cover-image {
+    position: absolute;
+    height: 100%;
+    top: 0;
+}

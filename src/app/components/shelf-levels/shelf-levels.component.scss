@@ -1,0 +1,21 @@
+.shelf-level {
+    background-image: url('../../../assets/images/shelf-level.png'); 
+    background-repeat: no-repeat;
+  background-size:cover;
+    padding-top: 1em;
+    margin-bottom: 1.8em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.shelf-levels {
+    // display: block;
+    display: flex;
+    flex-direction: column;
+}
+
+.snap-container {
+  display: flex;
+  padding-bottom: 1.5em;
+}
