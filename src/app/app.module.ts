@@ -6,6 +6,7 @@ import { BaseShelveComponent } from './components/base-shelve/base-shelve.compon
 import { ShelfItemComponent } from './components/shelf-item/shelf-item.component';
 import { ShelfLevelsComponent } from './components/shelf-levels/shelf-levels.component';
 import { AudioArtifactsComponent } from './components/audio-artifacts/audio-artifacts.component';
+import { TabComponent } from './components/tab/tab.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { AudioArtifactsComponent } from './components/audio-artifacts/audio-arti
     BaseShelveComponent,
     ShelfItemComponent,
     ShelfLevelsComponent,
-    AudioArtifactsComponent
+    AudioArtifactsComponent,
+    TabComponent
   ],
   imports: [
     BrowserModule

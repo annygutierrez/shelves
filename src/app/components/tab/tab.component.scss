@@ -1,0 +1,51 @@
+.table-header {
+    display: flex;
+    // display: flex;
+    // flex: 1;
+}
+
+.album-title {
+  font-family: Arial;
+}
+
+.tab-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    // background-color: blueviolet;
+}
+
+.header-item {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.tape {
+    // background-image: url('../../../assets/images/tape.png'); 
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 0 2.5em;
+    // background-color: chocolate;
+}
+
+.album-tab {
+    padding: 2em 0;
+}
+
+.track-tab {
+    padding-top: 2em;
+}
+
+.tab-description {
+  padding: 2em 1em;
+
+}
+
+.description {
+    background-color: rgb(235, 234, 231);
+    border-radius: 0.5em;
+    padding: 0.4em 2em;
+}

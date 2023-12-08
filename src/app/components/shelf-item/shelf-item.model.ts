@@ -4,4 +4,6 @@ export interface ShelfItem {
     albumName: string;
     case: string;
     snap: string;
+    description: string;
+    favSong: string;
 }

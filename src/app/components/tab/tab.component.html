@@ -1,0 +1,65 @@
+<div class="tab-container">
+    <div [style.flexDirection]="screenWidth < 770 ? 'column' : 'row'" class="table-header">
+        <div
+          (click)="updateActiveTab(0)"
+          class="header-item"
+        >
+             <div
+               class="tape"
+               [style.backgroundImage]="activeTab === 0 ? 'url(assets/images/tape.png)' : 'url(assets/images/dark-tape.png)'"
+                [style.backgroundSize]="'cover'"
+                [style.backgroundRepeat]="'no-repeat'"
+            >
+                <p [style.color]="activeTab === 0 ? 'black' : 'white'" class="album-title">Album by {{selectedItem.author}}</p>
+             </div>
+        </div>
+        <div (click)="updateActiveTab(1)" class="header-item">
+            <div
+              class="tape"
+              [style.backgroundImage]="activeTab === 1 ? 'url(assets/images/tape.png)' : 'url(assets/images/dark-tape.png)'"
+                [style.backgroundSize]="'cover'"
+                [style.backgroundRepeat]="'no-repeat'"
+            >
+               <p  [style.color]="activeTab === 1 ? 'black' : 'white'" class="album-title">Fav song</p>
+            </div>
+       </div>
+       <div (click)="updateActiveTab(2)" class="header-item">
+        <div
+           class="tape"
+           [style.backgroundImage]="activeTab === 2 ? 'url(assets/images/tape.png)' : 'url(assets/images/dark-tape.png)'"
+                [style.backgroundSize]="'cover'"
+                [style.backgroundRepeat]="'no-repeat'"
+        >
+           <p  [style.color]="activeTab === 2 ? 'black' : 'white'" class="album-title">Note</p>
+        </div>
+        </div>
+    </div>
+    
+    <div class="album-tab" *ngIf="activeTab === 0">
+        <iframe
+      style="border-radius:12px"
+      width="100%" height="400" frameBorder="0" allowfullscreen=""
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      [src]='getUrl(selectedItem.snap)'
+      
+      loading="lazy"></iframe>
+      
+
+
+    </div>
+    <div class="track-tab" *ngIf="activeTab === 1">
+        <iframe
+        style="border-radius:12px"
+        [src]="getUrl(selectedItem.favSong)"
+        width="100%" height="180" frameBorder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"></iframe>
+
+    </div>
+    <div class="tab-description" *ngIf="activeTab === 2">
+        <div class="description">
+            <p>{{selectedItem.description}}</p>
+        </div>
+    </div>
+</div>
+

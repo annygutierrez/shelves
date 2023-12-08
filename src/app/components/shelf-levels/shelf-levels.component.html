@@ -1,19 +1,28 @@
 <div class="shelf-levels">
-    <div *ngFor="let level of parsedList; let i = index" class="shelf-level">
+    <div *ngFor="let level of parsedList; let j = index" class="shelf-level">
         <shelf-item
           *ngFor="let item of level.items; let i = index"
-          (click)="changeSelectedIndex(i)"
+          (click)="changeSelectedIndex(j,i)"
           [item]="item"
         ></shelf-item>
     </div>
     <audio-artifacts [selectedItem]="itemList[selectedIndex]" *ngIf="shelvesType === 'music'" />
 </div>
-<div class="snap-container">
-    <iframe
+<!-- <div class="snap-container"> -->
+  <app-tab [screenWidth]="screenWidth" [selectedItem]="itemList[selectedIndex]"></app-tab>
+    <!-- <iframe
       style="border-radius:12px"
       width="100%" height="500" frameBorder="0" allowfullscreen=""
       allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
       [src]='getUrl(itemList[selectedIndex].snap)'
       
       loading="lazy"></iframe>
-</div>
+      <iframe
+        style="border-radius:12px"
+        src="https://open.spotify.com/embed/track/7yFMhCJOsH7khgpdnyrZAZ?utm_source=generator"
+        width="100%" height="352" frameBorder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"></iframe> -->
+
+        
+<!-- </div> -->

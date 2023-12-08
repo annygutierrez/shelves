@@ -14,7 +14,7 @@ import { ScreenSizes, ItemsPerLevel } from './shelf-levels.enum';
 export class ShelfLevelsComponent implements OnInit {
      @Input() itemList: ShelfItem[] = [];
      @Input() shelvesType: string = '';
-     screenWidth: number = 0;
+     screenWidth: number = window.innerWidth;
      shelveItemNumber: number = 26
      parsedList: ShelfLevel[] = [];
      selectedIndex: number = 0;
@@ -24,7 +24,8 @@ export class ShelfLevelsComponent implements OnInit {
      constructor(private sanitizer: DomSanitizer, private musicService: MusicService) {}
 
      ngOnInit() {
-       this.parseItemList(0);
+      this.screenWidth = window.innerWidth;
+      this.generateShelves();
        this.musicServiceSub = this.musicService.indexChanged.subscribe(
         (newVal) => {
           this.selectedIndex = newVal;
@@ -32,10 +33,10 @@ export class ShelfLevelsComponent implements OnInit {
       );
      }
 
-     changeSelectedIndex(newIndex: number) {
+     changeSelectedIndex(newRow: number, newIndex: number) {
       
            
-      this.musicService.changeSelectedIndex(newIndex);
+      this.musicService.changeSelectedIndex(newRow, newIndex, this.shelveItemNumber);
     }
 
      
@@ -75,13 +76,27 @@ export class ShelfLevelsComponent implements OnInit {
         return this.sanitizer.bypassSecurityTrustResourceUrl(url);
       }
 
+      generateShelves() {
+        if (this.screenWidth < 1161) {
+          this.shelveItemNumber = 18;
+        }
+        if (this.screenWidth < 844) {
+          this.shelveItemNumber = 12;
+        }
+        if (this.screenWidth < 560) {
+          this.shelveItemNumber = 8;
+        }
+        if (this.screenWidth < 375) {
+          this.shelveItemNumber = 5;
+        }
+        this.parseItemList(this.shelveItemNumber);
+      }
+
     @HostListener('window:resize', ['$event'])
       onResize() {
         const width = window.innerWidth;
-        // if (screenWidth < 950) {
-        //   this.screenWidth = screenWidth;
-        // }
-        this.parseItemList(width);
+        this.screenWidth = width;
+        this.generateShelves();
       }
 
       ngOnDestroy(): void {

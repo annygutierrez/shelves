@@ -12,7 +12,9 @@ import { ShelfItem } from './shelf-item.model';
     author: '',
     albumName: '',
     case: '',
-    snap: ''
+    snap: '',
+    description: '',
+favSong: ''
     }
 
     ngOnInit() {
