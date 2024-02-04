@@ -15,7 +15,7 @@ export class ShelfLevelsComponent implements OnInit {
      @Input() itemList: ShelfItem[] = [];
      @Input() shelvesType: string = '';
      screenWidth: number = window.innerWidth;
-     shelveItemNumber: number = 26
+     shelveItemNumber: number = 25
      parsedList: ShelfLevel[] = [];
      selectedIndex: number = 0;
 
