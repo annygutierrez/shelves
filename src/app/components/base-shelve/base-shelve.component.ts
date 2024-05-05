@@ -217,7 +217,7 @@ import { ShelfItem } from '../shelf-item/shelf-item.model';
         albumName: 'Born To Die',
         case: 'cassette.png',
         favSong: "https://open.spotify.com/embed/track/6AO4EATlH8p6kiXQzPYGEP?utm_source=generator",
-        description: "Love SadSvit's work. Love the melancholic slightly enthusiastic sound of his music in general.",
+        description: "Love SadSvit's work. Love the melancholic slightly enthusiastic sound of his music in general. I feel like this sound is like my thoughts would sound like if they were music",
         snap:"https://open.spotify.com/embed/album/0Wn5sHYtC7vPPX0n2AVJmF?utm_source=generator" 
       },
       {
@@ -226,7 +226,7 @@ import { ShelfItem } from '../shelf-item/shelf-item.model';
         albumName: 'Born To Die',
         case: 'brol.png',
         favSong: "https://open.spotify.com/embed/track/06O3hxudc6V0BOuoCFSy71?utm_source=generator",
-        description: "This album was a disruption to my music taste after listening to too much Russian Post Punk. Didn't convince me at first.",
+        description: "This album was a disruption to my music taste after listening to too much Russian Post Punk. Didn't convince me at first. It was my reintroduction to French music, after taking the decision of studying French.",
         snap:"https://open.spotify.com/embed/album/6KSvWFf4g4PrIldtchJsTC?utm_source=generator" 
       },
       {
@@ -235,7 +235,7 @@ import { ShelfItem } from '../shelf-item/shelf-item.model';
         albumName: 'Born To Die',
         case: 'nonante-cinq.png',
         favSong: "https://open.spotify.com/embed/track/6IkCln4loRwYQ16dIX3zej?utm_source=generator",
-        description: "This album was a disruption to my music taste after listening to too much Russian Post Punk.",
+        description: "Angèle's music was already a great part of my playlist at this point, and here I could find more than a couple of pop songs that were eye opening, in the sense that they were very different from the usual queen-pop music I've been listening to, being someone mainly exposed by American pop culture.",
         snap: "https://open.spotify.com/embed/album/2hQ9QcZ4VkoeBdBo1JNG64?utm_source=generator" 
       },
       {
@@ -244,36 +244,16 @@ import { ShelfItem } from '../shelf-item/shelf-item.model';
         albumName: 'Born To Die',
         case: 'uitzinning.png',
         favSong: "https://open.spotify.com/embed/track/0keQSnGOvLLWZtbVS6kKyY?utm_source=generator",
-        description: "I loved Ik Will Dansen and then I loved this. Again, this is music I usually don't like, but it grew in me. Then I watched a video of the band playing live and I was in awe.",
+        description: "I loved 'Ik Will Dansen' and then I loved this. Again, this is music I usually don't like, but it grew in me, mostly because parts of the album sometimes played after listening to 'Ik will dansen' too much. Then I watched a video of the band playing live and I was in awe, their performance and sound mix is so good I prefer listening to their live presentations.",
         snap:"https://open.spotify.com/embed/album/1uAimajt3zW6EGLIE83jnc?utm_source=generator" 
       },
-      
-      
-     
-     
-     
-     
-     
-     
-     
-     
-      
-      
-      
-      
-      
-      
-      
-     
-      
-      
       {
         cover: 'trash-island.png',
         author: 'Thaiboy Digital * Bladee * Ecco2k',
         albumName: 'Trash Island',
         case: 'trash-island.png',
         favSong: "https://open.spotify.com/embed/track/1zX178V8sWozr96MrfmRun?utm_source=generator",
-        description: "This is what some call trash music, and it is in some ways, but this transmits euphoric and warm feelings, like, ethereal feelings that makes me enjoy life.",
+        description: "This is what some call trash music, and it is in some ways, but this transmits an euphoric and warm vibe, like, ethereal feelings that makes me enjoy life.",
         snap: "https://open.spotify.com/embed/album/30zy3JHuDxZbBWGf8rGZGX?utm_source=generator" 
       },
       {
@@ -285,6 +265,32 @@ import { ShelfItem } from '../shelf-item/shelf-item.model';
         description: "Amazing music that surprised me in a very positive way. Love the feeling of this sound. This would probably be part of the soundtrack of my life.",
         snap: "https://open.spotify.com/embed/album/4NESArVYihJKvoXk1eYE8A?utm_source=generator" 
       },
-      
+      {
+        cover: 'club-romantech.png',
+        author: 'Icona Pop',
+        albumName: 'Club Romantech',
+        case: 'club-romantech.png',
+        favSong: "https://open.spotify.com/embed/track/16Cv47YFbROCj4fzuxo7Z6?utm_source=generator",
+        description: "Sometimes I go back in time and review my old playlists, listen to some artists I didn't listen to in a long time, and sometimes, when I'm curious, I look for their modern work, or what the artist is up to in this moment, that's how I found this album. I feel lucky this was released just months before I found it. In my opinion, the best album in electronic music from the last 4 years. Love their style, and the kind of music they mix. It just sounds beautiful.",
+        snap: "https://open.spotify.com/embed/album/29aOgoHgr7C2J27gGfJdEz?utm_source=generator" 
+      },
+      {
+        cover: 'echo.png',
+        author: 'Romeo Elvis',
+        albumName: 'Écho',
+        case: 'echo.png',
+        favSong: "https://open.spotify.com/embed/track/7wafptfEroZpxE6dOsjRE4?utm_source=generator",
+        description: "I was studying French, and for me to want to learn a language I need to like lots of content and creators. I was stalking Angèle when I found her brother was a rapper. I should say this album is great, the sound, the lyrics and the artistic direction is on point, I love it. My favorites from this album are Hier Soir and Tadumal.",
+        snap: "https://open.spotify.com/embed/album/6a4UniWWCtgVOHQypWKtrj?utm_source=generator" 
+      },
+      {
+        cover: 'tete-brulee.png',
+        author: 'Iliona',
+        albumName: 'Tête Brûlée',
+        case: 'tete-brulee.png',
+        favSong: "https://open.spotify.com/embed/track/6Dt6avd8V0rBotNLj9yMy3?utm_source=generator",
+        description: "I found this music by chance when looking for new music on Youtube. I have to say that this is one of the artists that surprised me the most from the first moment. It was like finding Françoise Hardy, but with a 2020 touch. I feel like this album doesn't try to be something, it just is, flows.",
+        snap: "https://open.spotify.com/embed/album/6bdnYaYOkqDq9aXNgXNx3f?utm_source=generator" 
+      },
     ]
   }
