@@ -172,7 +172,7 @@ import { ShelfItem } from '../shelf-item/shelf-item.model';
         albumName: 'Born To Die',
         case: 'more-than-you-know.png',
         favSong: "https://open.spotify.com/embed/track/3g66v3lFNy6cLk22PgJOUS?utm_source=generator",
-        description: "This EP took me to another galaxy while we were in lookdown. It feels very adventurous, very unapologetic. Conveys a feeling of calm and energy at the same time.",
+        description: "This EP took me to another galaxy while we were in lookdown. It feels very adventurous, very unapologetic. Conveys a feeling of calm and energy at the same time. In my opinion, one of the best EPs in the EDM world. A timeless masterpiece in every sense, not just the music. Great sound, great story, great mix of tracks, great colors and great camara work.",
         snap: "https://open.spotify.com/embed/album/6Ei5WWek37m1x9AjpSXTcJ?utm_source=generator" 
       },
       {
@@ -181,7 +181,7 @@ import { ShelfItem } from '../shelf-item/shelf-item.model';
         albumName: 'Born To Die',
         case: 'etadgy.png',
         favSong: "https://open.spotify.com/embed/track/1SHB1hp6267UK9bJQUxYvO?utm_source=generator",
-        description: "They opened my mind to Slavic music. THANKS!!!!!", 
+        description: "They opened my mind to Slavic music. THANKS!!!!! Found it on a friend's playlist and thought it was goth music from the eighties. I rediscovered it in the middle of the lockdown, and found out it was actually Russian music from two years ago. That was the beginning of my story with the Russian Language and slavic music in general.", 
         snap: "https://open.spotify.com/embed/album/1FHREwXgTQvqiG8q5KlRzc?utm_source=generator" 
       },
       {
@@ -198,8 +198,8 @@ import { ShelfItem } from '../shelf-item/shelf-item.model';
         author: 'кис-кис',
         albumName: 'Born To Die',
         case: 'youth-punk.png',
-        favSong: "https://open.spotify.com/embed/track/4xnQgJy3CcOh8JxlbVXcW7?utm_source=generator",
-        description: "This is the freak of the group. Didn't like the overly enthusiastic and playful sound of this album, but I was studying Russian, and this album was constantly played on Alina Olesheva's videos, so I ended up liking the entire thing. There are three songs from this album that I loved from the beginnig though.",
+        favSong: "https://open.spotify.com/embed/track/6txVDMQFuTAMyTEFjHL8o4?utm_source=generator",
+        description: "This is the freak of the group. Didn't like the overly enthusiastic and playful sound of this album, but I was studying Russian, and this album was constantly played on Alina Olesheva's videos, so I ended up liking the entire thing. There are three songs from this album that I loved from the beginnig though. ",
         snap: "https://open.spotify.com/embed/album/5oHFyKzFBV1OEsk7y0ktI3?utm_source=generator" 
       },
       {
@@ -271,7 +271,7 @@ import { ShelfItem } from '../shelf-item/shelf-item.model';
         albumName: 'Club Romantech',
         case: 'club-romantech.png',
         favSong: "https://open.spotify.com/embed/track/16Cv47YFbROCj4fzuxo7Z6?utm_source=generator",
-        description: "Sometimes I go back in time and review my old playlists, listen to some artists I didn't listen to in a long time, and sometimes, when I'm curious, I look for their modern work, or what the artist is up to in this moment, that's how I found this album. I feel lucky this was released just months before I found it. In my opinion, the best album in electronic music from the last 4 years. Love their style, and the kind of music they mix. It just sounds beautiful.",
+        description: "Sometimes I go back in time and review my old playlists, listen to some artists I didn't listen to in a long time, and sometimes, when I'm curious, I look for their modern work, or what the artist is up to in this moment, that's how I found this album. I feel lucky this was released just months before I found it. In my opinion, the best album in electronic music from the last 4 years. Love their style, and the kind of music they mix. It just sounds beautiful. It looks like my favorite electronic sounds come from Sweden haha. Love you Sweden.",
         snap: "https://open.spotify.com/embed/album/29aOgoHgr7C2J27gGfJdEz?utm_source=generator" 
       },
       {
@@ -289,7 +289,7 @@ import { ShelfItem } from '../shelf-item/shelf-item.model';
         albumName: 'Tête Brûlée',
         case: 'tete-brulee.png',
         favSong: "https://open.spotify.com/embed/track/6Dt6avd8V0rBotNLj9yMy3?utm_source=generator",
-        description: "I found this music by chance when looking for new music on Youtube. I have to say that this is one of the artists that surprised me the most from the first moment. It was like finding Françoise Hardy, but with a 2020 touch. I feel like this album doesn't try to be something, it just is, flows.",
+        description: "I found this music by chance when looking for new music on Youtube. I have to say that this is one of the artists that surprised me the most from the first moment. It was like finding Françoise Hardy, but with a 2020 touch. I feel like this album doesn't try to be something, it just is, it flows.",
         snap: "https://open.spotify.com/embed/album/6bdnYaYOkqDq9aXNgXNx3f?utm_source=generator" 
       },
     ]
