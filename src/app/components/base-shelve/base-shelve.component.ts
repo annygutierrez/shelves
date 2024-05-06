@@ -72,9 +72,15 @@ import { ShelfItem } from '../shelf-item/shelf-item.model';
           description: "This music represents the last breath of my teenage self.", 
           snap:"https://open.spotify.com/embed/album/0f1CZexom6ELxbDZx32fyk?utm_source=generator" 
         },
-        
-      
-      
+        {
+          cover: 'we-are-your-friends.png',
+          author: 'Various',
+          albumName: 'We Are Your Friends Soundtrack',
+          case: 'we-are-your-friends.png',
+          favSong: "https://open.spotify.com/embed/track/7t2Ha2R0Hrpg2a6sSQKnXU?utm_source=generator",
+          description: "I saw the movie in New year's Eve (2015 to 2016), without expecting anything, this was the first time I was watching Netflix, I didn't even know what Netflix was. It was a fun movie, weird and it had its dumb moments, but the music was great, I was surprised, didn't expect the music was gonna be so good. It was perfect for the occasion, it made a dull New Year's Eve, a very memorable one.",
+          snap:"https://open.spotify.com/embed/playlist/56vITQOCrfofBVLqAq2P4N?utm_source=generator" 
+        },
       {
         cover: 'anti.png',
         author: 'Rihanna',
@@ -130,6 +136,24 @@ import { ShelfItem } from '../shelf-item/shelf-item.model';
         snap: "https://open.spotify.com/embed/album/4B4in9QlrlYWSHlYSRebdC?utm_source=generator"
       },
       {
+        cover: 'the-bling-ring.png',
+        author: 'Various',
+        albumName: 'The Bling Ring Soundtrack',
+        case: 'the-bling-ring.png',
+        favSong: "https://open.spotify.com/embed/track/19MfnjgDrMYOy74LPEEmop?utm_source=generator",
+        description: "This was the style of music that was popular in the early 2010's, I love its cockyness and its 2010-party vibe. Always a jam.",
+        snap:"https://open.spotify.com/embed/playlist/6vDqTEiqKFUBuVodf7n0Ux?utm_source=generator" 
+      },
+      {
+        cover: 'xoxo.png',
+        author: 'Various',
+        albumName: 'XOXO Soundtrack',
+        case: 'xoxo.png',
+        favSong: "https://open.spotify.com/embed/track/2WTCoQLkQ9FPdvThkf8nN1?utm_source=generator",
+        description: "This soundtrack was like getting my spirit back in, haha I mean, it gave me so much life each time I listened to this, plus the movie summarize exactly the state of my brain was in that moment. I feel like this soundtrack is one of those perfect fits for its movie that you just don't find so easily, specially when the soundtrack is not classical music.",
+        snap: "https://open.spotify.com/embed/album/7GII7KZDArYqZ14xcyshb4?utm_source=generator" 
+      },
+      {
         cover: 'badlands.png',
         author: 'Halsey',
         albumName: 'Born To Die',
@@ -148,6 +172,24 @@ import { ShelfItem } from '../shelf-item/shelf-item.model';
         snap:"https://open.spotify.com/embed/album/2B87zXm9bOWvAJdkJBTpzF?utm_source=generator" 
       },
       {
+        cover: 'oitnb.png',
+        author: 'Various',
+        albumName: 'Orange is The New Black Soundtrack',
+        case: 'oitnb.png',
+        favSong: "https://open.spotify.com/embed/track/3uoePTU0gIKL39e11Qamsa?utm_source=generator",
+        description: "OITNB isn't known for its beautiful soundtrack, I mean most of the entire series has a very generic sound, or a very forgetable one. But the last season soundtrack was gold, they had to select great music for those emotional scenes, each one matched the characters perfectly, and it didn't feel like a caricature of their personalities, very well done.",
+        snap:"https://open.spotify.com/embed/playlist/0TTCmA7tKGpNptJogxS4Td?utm_source=generator" 
+      },
+      {
+        cover: 'a-simple-favor.png',
+        author: 'Various',
+        albumName: 'A Simple Favor Soundtrack',
+        case: 'a-simple-favor.png',
+        favSong: "https://open.spotify.com/embed/track/3mcKkrFpAYNzjY5uKemvij?utm_source=generator",
+        description: "This playlist was perfectly curated for the tone and aesthetics of this movie. Love the irony and playfulness that we get when the very classy French music mixes with some scenes and the plot of the movie. Very well done. Also, thanks to this movie I found out that French music and François Hardy existed.",
+        snap:"https://open.spotify.com/embed/playlist/7vRpXDfAgY54HseJXo7q2F?utm_source=generator" 
+      },
+      {
         cover: 'euphoria.png',
         author: 'Labrinth',
         albumName: 'Born To Die',
@@ -155,6 +197,15 @@ import { ShelfItem } from '../shelf-item/shelf-item.model';
         favSong: "https://open.spotify.com/embed/track/6N22FZs2ZhPBYi3b9XPajV?utm_source=generator",
         description: "In my opinion one of the best soundtracks of all time. Great selection of sounds, a perfect fit for Euphoria 1st season. Labrinth voice is a-ma-zing.",
         snap: "https://open.spotify.com/embed/album/788r22Bhr3IHLTNPy8pZea?utm_source=generator"
+      },
+      {
+        cover: 'mr-robot.png',
+        author: 'Various',
+        albumName: 'Mr. Robot Soundtrack',
+        case: 'mr-robot.png',
+        favSong: "https://open.spotify.com/embed/track/0QmIPFQ3h0yVPgHsfqpy05?utm_source=generator",
+        description: "Another amazing work in the music department. Personally, it reminded me why I love instrumental and classical sounds in movies and series when they are placed at the right time with the right intensity and most importantly, it has to have its own personality.",
+        snap:"https://open.spotify.com/embed/playlist/2F61XHtCeHHFiC6m2fdLLR?utm_source=generator" 
       },
       {
         cover: 'nieve.png',
