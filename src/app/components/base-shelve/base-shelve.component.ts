@@ -343,5 +343,86 @@ import { ShelfItem } from '../shelf-item/shelf-item.model';
         description: "I found this music by chance when looking for new music on Youtube. I have to say that this is one of the artists that surprised me the most from the first moment. It was like finding Françoise Hardy, but with a 2020 touch. I feel like this album doesn't try to be something, it just is, it flows.",
         snap: "https://open.spotify.com/embed/album/6bdnYaYOkqDq9aXNgXNx3f?utm_source=generator" 
       },
+      {
+        cover: 'ploho-rehearsal.png',
+        author: 'Ploho',
+        albumName: 'Rehearsal Tape',
+        case: 'ploho-rehearsal.png',
+        favSong: "https://open.spotify.com/embed/track/3EXPx7oapQg7poKsRLV9jr?utm_source=generator",
+        description: "I love this rehearsal tape cause it sounds exactly like when they played live in Lima, it may sound stupid because it's kind of obvious but the vibe and the raw sound reminds me to this beautiful concert. Never forgetting that night.",
+        snap: "https://open.spotify.com/embed/album/4PuwMU85q893cYQMWJ53Fn?utm_source=generator"
+      },
+      {
+        cover: 'brat.png',
+        author: 'Charli XCX',
+        albumName: 'BRAT',
+        case: 'brat.png',
+        favSong: "https://open.spotify.com/embed/track/4wTvw1dBiPXNiHTh0zzpcI?utm_source=generator",
+        description: "One of the best albums in the last 5 years in my opinion. And an evidence of the huge influence Yung Lean and Bladee have had in the musical industry. I love how everyone is loving it.",
+        snap: "https://open.spotify.com/embed/album/2lIZef4lzdvZkiiCzvPKj7?utm_source=generator"
+      },
+      {
+        cover: 'model.png',
+        author: 'Wallows',
+        albumName: 'Model',
+        case: 'model.png',
+        favSong: "https://open.spotify.com/embed/track/6YVajR33kCWLhWpMVD8AGD?utm_source=generator",
+        description: "My favorite band right now. Love their sound, it feels like a mix of 90's, 80's and 2000's. Forever reminding me of my univesity times.",
+        snap: "https://open.spotify.com/embed/album/64SX9Efb2JGW3rJFE1ZddJ?utm_source=generator"
+      },
+      {
+        cover: 'primetime.png',
+        author: 'Alli Neumann',
+        albumName: 'PRIMETIME',
+        case: 'primetime.png',
+        favSong: "https://open.spotify.com/embed/track/0Z4Qo0TlA8Lx54dGg9TpO8?utm_source=generator",
+        description: "My favorite german singer. I feel this album sounds like Dua Lipa, and I think it's pretty interesting why it sounds so similar, I love it. It's like if Dua was a german underground artist living in Berlin, as my sister said.",
+        snap: "https://open.spotify.com/embed/album/3RK4pNM1XeJ0ZxhKHdSuKr?utm_source=generator"
+      },
+      {
+        cover: 'hohes-fieber.png',
+        author: 'Alli Neumann',
+        albumName: 'Hohes Fieber',
+        case: 'hohes-fieber.png',
+        favSong: "https://open.spotify.com/embed/track/1CbB3zyRQNo03KbkVGSLBp?utm_source=generator",
+        description: "I'd describe this album as 'exquisite'. I love the voice, the production with a lot of percusion similar t the ones you would find in blues, jazz or rock, the guitar solos, I find the raw and silky sound of this album makes me feel some kind of euphoria, and has inspires me to write.",
+        snap: "https://open.spotify.com/embed/album/7aXoimdFLEsyN99qYQV9Z4?utm_source=generator"
+      },
+      {
+        cover: 'monster.png',
+        author: 'Alli Neumann',
+        albumName: 'Monster',
+        case: 'monster.png',
+        favSong: "https://open.spotify.com/embed/track/7gE1mJE9YhhuMKA9m2I2ot?utm_source=generator",
+        description: "This album has definitely more of a 50's blues vibe. I think this is the genre that fits better with the strong and emotional voice of Alli Neumann, I wish she leaned more into this kind of sound or mix this style with her current work, I'd love to listen to more of this. Or maybe a song where I can enjoy the emotional potencial of her voice, which I adore also in her last album which has a more positive and happy vibe.",
+        snap: "https://open.spotify.com/embed/album/6Mr7EmogZNhYl0uVDAd0hF?utm_source=generator"
+      },
+      {
+        cover: 'hier.png',
+        author: 'BRUCKNER',
+        albumName: 'Hier',
+        case: 'hier.png',
+        favSong: "https://open.spotify.com/embed/track/6lFE3aWWixcBaZsnAS84I1?utm_source=generator",
+        description: "The first german album that I loved, and my favorite german band. Their sound is like a summer in a mediterranean island.",
+        snap: "https://open.spotify.com/embed/album/3z4KjpDgWh8k4KSUXMuAbx?utm_source=generator"
+      },
+      {
+        cover: 'beach-rock-hotel.png',
+        author: 'SALUKI',
+        albumName: 'Beach Rock Hotel',
+        case: 'beach-rock-hotel.png',
+        favSong: "https://open.spotify.com/embed/track/71vpmaVirLmeCJqp2TPDZF?utm_source=generator",
+        description: "The first Russian rapper that actually made me think Russian rap was the coolest ever. His sound and art work for this album was mesmerizing.",
+        snap: "https://open.spotify.com/embed/album/78hsX5SGEEmzT61ADrHL9s?utm_source=generator"
+      },
+      {
+        cover: 'soda-luv.png',
+        author: 'SODA LUV',
+        albumName: 'Beach Rock Hotel',
+        case: 'soda-luv.png',
+        favSong: "https://open.spotify.com/embed/track/6h0KNTDdLbaFYRdxzQHyZz?utm_source=generator",
+        description: "I found out about this album when a Russian actor published a story with a song that I instantly loved. Definitely wasn't expecting a controversial rapper being the singer, but I loved his work here, and was impressed by the change of style.",
+        snap: "https://open.spotify.com/embed/album/4TlhqknZIT2zjG0dPZnQ3n?utm_source=generator"
+      },
     ]
   }
